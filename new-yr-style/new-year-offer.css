@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.interh1 {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+}
+
+
+.top-banar{
+    background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url('../resorce and icone/images/Banner Image.png');
+    background-size: cover;
+    width: 924px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 42px auto;
+    border-radius: 16px;
+}
+
+.top-banar-content p{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.top-banar-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 442px;
+    height: 133px;
+}
+
+
+.offer-baner{
+    width:562px ;
+    height:564px ;
+    margin: 42px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.offer-baner h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 75px;
+}
+.offer-baner p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.offer-baner h4{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: center;
+}
