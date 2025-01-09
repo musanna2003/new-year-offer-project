@@ -89,3 +89,168 @@
     letter-spacing: 0%;
     text-align: center;
 }
+.banar3{
+    width: 924px;
+    height: 420px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 180px auto;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+    url("../resorce and icone/images/Vectorrr.png");
+    background-size: cover;
+}
+.banar3_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banar3 h1{
+    width: 449px;
+    height: 123px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 62px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+.banar3 p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 488px;
+    height: 42px;
+}
+.banar3 button{
+    width: 90px;
+    height: 17px;
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banar4{
+    width: 924px;
+    height: 337px;
+    margin: 60px auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banar4 p{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.banar4 span{
+    color: rgb(255, 0, 0);
+}
+.banar4 button{
+    width: 117px;
+    height: 39px;
+    border: none;
+    border-radius: 6px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banar5{
+    width: 924px;
+    height: 324px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.banar5_img{
+    padding: 24px;
+    border: 8px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.banar5_txt{
+    width: 278px;
+    height: 324px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:start;
+}
+.banar5 p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banar5 h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.banar5 h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align:left;
+
+}
+.banar5 h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banar5_txt2{
+    width: 293px;
+    height: 324px;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    align-items:start;
+
+}
